@@ -68,20 +68,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0732F10A1D062BF700AB5438 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0732F1051D062BF700AB5438 /* MBProgressHUD.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D286A7491518C70F00E13FB8;
-			remoteInfo = "MBProgressHUD Static Library";
-		};
-		0732F10C1D062BF700AB5438 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0732F1051D062BF700AB5438 /* MBProgressHUD.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1D104D7A1ACA36CC00973364;
-			remoteInfo = "MBProgressHUD Framework";
-		};
 		07FABB8E25C9AEC100E1CC2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA0BA1831C0CC57B00719C1A /* Project object */;
@@ -103,22 +89,11 @@
 			remoteGlobalIDString = 07FABBAE25C9AECF00E1CC2C;
 			remoteInfo = BlinkFiles;
 		};
-		D2A3F4DC206909A8006BB305 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0732F1051D062BF700AB5438 /* MBProgressHUD.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1777D3DF1D757AF50037C7F1;
-			remoteInfo = "MBProgressHUD Framework tvOS";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0732F04A1D062B9A00AB5438 /* locales.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = locales.bundle; sourceTree = "<group>"; };
-		0732F04B1D062B9A00AB5438 /* term.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = term.html; sourceTree = "<group>"; };
-		0732F1051D062BF700AB5438 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MBProgressHUD.xcodeproj; path = MBProgressHUD/MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
 		0732F1261D06323A00AB5438 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0732F1281D06324200AB5438 /* libcurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
-		074F30781D062A2800A73445 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07FABB8425C9AEC000E1CC2C /* SSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FABB8625C9AEC000E1CC2C /* SSH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSH.h; sourceTree = "<group>"; };
 		07FABB8725C9AEC000E1CC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -157,8 +132,6 @@
 		07FABC1325C9AF8F00E1CC2C /* LocalFilesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalFilesTests.swift; sourceTree = "<group>"; };
 		07FABC1425C9AF8F00E1CC2C /* CopyFilesTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyFilesTests.swift; sourceTree = "<group>"; };
 		07FABC2125C9AFC400E1CC2C /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		85A34303200A837A009324F1 /* webfontloader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webfontloader.js; sourceTree = "<group>"; };
-		85A34308200A8FAF009324F1 /* term.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = term.css; sourceTree = "<group>"; };
 		A9673E5C2DF1D52800991BBF /* template_setup.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = template_setup.xcconfig; sourceTree = "<group>"; };
 		B700AED71DD0F2C200100EBF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		BD7810A42640C36100114700 /* NWConnection+WriterTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NWConnection+WriterTo.swift"; sourceTree = "<group>"; };
@@ -176,55 +149,20 @@
 		BD9BF7E8262A6B0F00B02074 /* SOCKSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOCKSTests.swift; sourceTree = "<group>"; };
 		BDB72CB127A9C08500DCC446 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BDD6D14627594E8700E76F1F /* SSHClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHClientConfig.swift; sourceTree = "<group>"; };
-		BDE84C3B2BAE335100457391 /* vim */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vim; sourceTree = "<group>"; };
 		BDEEE36B2B8951D3003003FD /* get_frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = get_frameworks.sh; sourceTree = "<group>"; };
-		C944375F1D831CD30096F84E /* Themes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Themes; sourceTree = "<group>"; };
-		C94437641D838ABF0096F84E /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
-		D209465B204D3FC5003C4F72 /* cacert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cacert.pem; sourceTree = "<group>"; };
 		D218068725CC277900B98902 /* AppKitBridge.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppKitBridge.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D218068925CC277900B98902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D218069325CC27AC00B98902 /* AppBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppBridge.h; sourceTree = "<group>"; };
 		D218069425CC27AC00B98902 /* AppBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppBridge.m; sourceTree = "<group>"; };
-		D21A3FC621943BE200269705 /* dark-settings-ipad-29pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-settings-ipad-29pt.png"; sourceTree = "<group>"; };
-		D21A3FC721943BE200269705 /* dark-notification-ipad-20pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-notification-ipad-20pt.png"; sourceTree = "<group>"; };
-		D21A3FC821943BE200269705 /* dark-settings-iphone-29pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-settings-iphone-29pt@3x.png"; sourceTree = "<group>"; };
-		D21A3FC921943BE200269705 /* dark-app-iphone-60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-app-iphone-60pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FCA21943BE200269705 /* dark-settings-ipad-29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-settings-ipad-29pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FCB21943BE200269705 /* dark-app-iphone-60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-app-iphone-60pt@3x.png"; sourceTree = "<group>"; };
-		D21A3FCC21943BE200269705 /* dark-settings-iphone-29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-settings-iphone-29pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FCD21943BE200269705 /* dark-app-ipad-76pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-app-ipad-76pt.png"; sourceTree = "<group>"; };
-		D21A3FCE21943BE200269705 /* dark-app-ipad-pro-83.5pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-app-ipad-pro-83.5pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FCF21943BE200269705 /* dark-notification-iphone-20pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-notification-iphone-20pt@3x.png"; sourceTree = "<group>"; };
-		D21A3FD021943BE200269705 /* dark-notification-iphone-20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-notification-iphone-20pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FD121943BE200269705 /* dark-spotlight-ipad-40pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-spotlight-ipad-40pt.png"; sourceTree = "<group>"; };
-		D21A3FD221943BE200269705 /* dark-notification-ipad-20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-notification-ipad-20pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FD321943BE200269705 /* dark-spotlight-ipad-40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-spotlight-ipad-40pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FD421943BE200269705 /* dark-spotlight-iphone-40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-spotlight-iphone-40pt@2x.png"; sourceTree = "<group>"; };
-		D21A3FD521943BE200269705 /* dark-spotlight-iphone-40pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-spotlight-iphone-40pt@3x.png"; sourceTree = "<group>"; };
-		D21A3FD621943BE200269705 /* dark-app-ipad-76pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-app-ipad-76pt@2x.png"; sourceTree = "<group>"; };
 		D2334EC425C1C04700385378 /* LibSSH.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LibSSH.xcframework; path = xcfs/.build/artifacts/xcfs/LibSSH/LibSSH.xcframework; sourceTree = SOURCE_ROOT; };
-		D2334EC525C1C04700385378 /* mosh.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mosh.xcframework; path = xcfs/.build/artifacts/xcfs/mosh/mosh.xcframework; sourceTree = SOURCE_ROOT; };
-		D2334EC625C1C04700385378 /* network_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = network_ios.xcframework; path = xcfs/.build/artifacts/xcfs/network_ios/network_ios.xcframework; sourceTree = SOURCE_ROOT; };
-		D2334EC925C1C04700385378 /* shell.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shell.xcframework; path = xcfs/.build/artifacts/xcfs/shell/shell.xcframework; sourceTree = SOURCE_ROOT; };
 		D2334F0A25C1C3A000385378 /* OpenSSH.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSH.xcframework; path = xcfs/.build/artifacts/xcfs/OpenSSH/OpenSSH.xcframework; sourceTree = SOURCE_ROOT; };
-		D248EC542689EAD7009FD817 /* SSHConfig */ = {isa = PBXFileReference; lastKnownFileType = text; name = SSHConfig; path = xcfs/.build/checkouts/SSHConfig; sourceTree = SOURCE_ROOT; };
-		D2496F3B20038B3300E75FE9 /* hterm_all.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hterm_all.min.js; sourceTree = "<group>"; };
-		D2496F402003941B00E75FE9 /* term.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = term.js; sourceTree = "<group>"; };
-		D266A9D627295ECE00C85EED /* blink-uio.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "blink-uio.min.js"; sourceTree = "<group>"; };
 		D2771510287F0EA200D31F4E /* libbuild_cli.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbuild_cli.a; sourceTree = "<group>"; };
 		D27D01232615F1BD00128C23 /* developer_setup.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = developer_setup.xcconfig; sourceTree = "<group>"; };
 		D28DB3AB210B110B008A1139 /* libcompression.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcompression.tbd; path = usr/lib/libcompression.tbd; sourceTree = SDKROOT; };
-		D29392B62004D785001FB2AA /* hterm_all.patches.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hterm_all.patches.js; sourceTree = "<group>"; };
-		D29FE548208DC860004679D0 /* commandDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = commandDictionary.plist; sourceTree = "<group>"; };
-		D29FE549208DC860004679D0 /* extraCommandsDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = extraCommandsDictionary.plist; sourceTree = "<group>"; };
-		D2BB5E122A1F718300BB0520 /* app-font-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "app-font-bold.ttf"; sourceTree = "<group>"; };
-		D2BB5E132A1F718300BB0520 /* app-font-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "app-font-regular.ttf"; sourceTree = "<group>"; };
 		D2BF5F6B2659522C0070F839 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		D2C21F3220FCD6CD00F125E0 /* blinkCommandsDictionary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = blinkCommandsDictionary.plist; sourceTree = "<group>"; };
 		D2DE0DCD260323F400A69B6F /* id_ed25519-passphrase */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "id_ed25519-passphrase"; sourceTree = "<group>"; };
 		D2DE0DCE260323F400A69B6F /* id_ed25519-passphrase.pub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "id_ed25519-passphrase.pub"; sourceTree = "<group>"; };
 		D2EC7B4B25DBC922008B6B3C /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
-		D2F30EAC205009CD008C5F35 /* base64js.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = base64js.min.js; sourceTree = "<group>"; };
 		D2F64C9425CA99AD00F2225D /* openssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = openssl.xcframework; path = xcfs/.build/artifacts/xcfs/openssl/openssl.xcframework; sourceTree = SOURCE_ROOT; };
 		D2F64C9525CA99AD00F2225D /* libssh2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libssh2.xcframework; path = xcfs/.build/artifacts/xcfs/libssh2/libssh2.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -278,62 +216,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0732F0481D062B9A00AB5438 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D2E670112A2DB83200DEC4ED /* AppFont */,
-				D21A3FC521943BE200269705 /* DarkAppIcon */,
-				D29FE548208DC860004679D0 /* commandDictionary.plist */,
-				D2C21F3220FCD6CD00F125E0 /* blinkCommandsDictionary.plist */,
-				D29FE549208DC860004679D0 /* extraCommandsDictionary.plist */,
-				D209465B204D3FC5003C4F72 /* cacert.pem */,
-				D2F30EAC205009CD008C5F35 /* base64js.min.js */,
-				D266A9D627295ECE00C85EED /* blink-uio.min.js */,
-				85A34303200A837A009324F1 /* webfontloader.js */,
-				0732F04B1D062B9A00AB5438 /* term.html */,
-				D2496F402003941B00E75FE9 /* term.js */,
-				85A34308200A8FAF009324F1 /* term.css */,
-				D2496F3B20038B3300E75FE9 /* hterm_all.min.js */,
-				D29392B62004D785001FB2AA /* hterm_all.patches.js */,
-				BDE84C3B2BAE335100457391 /* vim */,
-				C94437641D838ABF0096F84E /* Fonts */,
-				C944375F1D831CD30096F84E /* Themes */,
-				0732F04A1D062B9A00AB5438 /* locales.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		0732F04F1D062BB300AB5438 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D2771510287F0EA200D31F4E /* libbuild_cli.a */,
 				BDB72CB127A9C08500DCC446 /* StoreKit.framework */,
-				D248EC542689EAD7009FD817 /* SSHConfig */,
 				D2334F0A25C1C3A000385378 /* OpenSSH.xcframework */,
 				D2334EC425C1C04700385378 /* LibSSH.xcframework */,
-				D2334EC525C1C04700385378 /* mosh.xcframework */,
-				D2334EC625C1C04700385378 /* network_ios.xcframework */,
-				D2334EC925C1C04700385378 /* shell.xcframework */,
 				D2F64C9525CA99AD00F2225D /* libssh2.xcframework */,
 				D2F64C9425CA99AD00F2225D /* openssl.xcframework */,
 				D28DB3AB210B110B008A1139 /* libcompression.tbd */,
 				B700AED71DD0F2C200100EBF /* CloudKit.framework */,
 				0732F1281D06324200AB5438 /* libcurses.tbd */,
 				0732F1261D06323A00AB5438 /* libz.tbd */,
-				0732F1051D062BF700AB5438 /* MBProgressHUD.xcodeproj */,
 				D2BF5F6B2659522C0070F839 /* Intents.framework */,
 			);
 			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		0732F1061D062BF700AB5438 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0732F10B1D062BF700AB5438 /* libMBProgressHUD.a */,
-				0732F10D1D062BF700AB5438 /* MBProgressHUD.framework */,
-				D2A3F4DD206909A8006BB305 /* MBProgressHUD.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		07FABB8525C9AEC000E1CC2C /* SSH */ = {
@@ -433,39 +331,6 @@
 			path = AppKitBridge;
 			sourceTree = "<group>";
 		};
-		D21A3FC521943BE200269705 /* DarkAppIcon */ = {
-			isa = PBXGroup;
-			children = (
-				D21A3FC621943BE200269705 /* dark-settings-ipad-29pt.png */,
-				D21A3FC721943BE200269705 /* dark-notification-ipad-20pt.png */,
-				D21A3FC821943BE200269705 /* dark-settings-iphone-29pt@3x.png */,
-				D21A3FC921943BE200269705 /* dark-app-iphone-60pt@2x.png */,
-				D21A3FCA21943BE200269705 /* dark-settings-ipad-29pt@2x.png */,
-				D21A3FCB21943BE200269705 /* dark-app-iphone-60pt@3x.png */,
-				D21A3FCC21943BE200269705 /* dark-settings-iphone-29pt@2x.png */,
-				D21A3FCD21943BE200269705 /* dark-app-ipad-76pt.png */,
-				D21A3FCE21943BE200269705 /* dark-app-ipad-pro-83.5pt@2x.png */,
-				D21A3FCF21943BE200269705 /* dark-notification-iphone-20pt@3x.png */,
-				D21A3FD021943BE200269705 /* dark-notification-iphone-20pt@2x.png */,
-				D21A3FD121943BE200269705 /* dark-spotlight-ipad-40pt.png */,
-				D21A3FD221943BE200269705 /* dark-notification-ipad-20pt@2x.png */,
-				D21A3FD321943BE200269705 /* dark-spotlight-ipad-40pt@2x.png */,
-				D21A3FD421943BE200269705 /* dark-spotlight-iphone-40pt@2x.png */,
-				D21A3FD521943BE200269705 /* dark-spotlight-iphone-40pt@3x.png */,
-				D21A3FD621943BE200269705 /* dark-app-ipad-76pt@2x.png */,
-			);
-			path = DarkAppIcon;
-			sourceTree = SOURCE_ROOT;
-		};
-		D2E670112A2DB83200DEC4ED /* AppFont */ = {
-			isa = PBXGroup;
-			children = (
-				D2BB5E122A1F718300BB0520 /* app-font-bold.ttf */,
-				D2BB5E132A1F718300BB0520 /* app-font-regular.ttf */,
-			);
-			path = AppFont;
-			sourceTree = "<group>";
-		};
 		EA0BA1821C0CC57B00719C1A = {
 			isa = PBXGroup;
 			children = (
@@ -478,8 +343,6 @@
 				07FABBBD25C9AECF00E1CC2C /* BlinkFilesTests */,
 				D218068825CC277900B98902 /* AppKitBridge */,
 				0732F04F1D062BB300AB5438 /* Frameworks */,
-				0732F0481D062B9A00AB5438 /* Resources */,
-				074F30781D062A2800A73445 /* main.m */,
 				EA0BA18C1C0CC57B00719C1A /* Products */,
 			);
 			indentWidth = 2;
@@ -668,12 +531,6 @@
 			);
 			productRefGroup = EA0BA18C1C0CC57B00719C1A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0732F1061D062BF700AB5438 /* Products */;
-					ProjectRef = 0732F1051D062BF700AB5438 /* MBProgressHUD.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				07FABB8325C9AEC000E1CC2C /* SSH */,
@@ -684,30 +541,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0732F10B1D062BF700AB5438 /* libMBProgressHUD.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMBProgressHUD.a;
-			remoteRef = 0732F10A1D062BF700AB5438 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0732F10D1D062BF700AB5438 /* MBProgressHUD.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MBProgressHUD.framework;
-			remoteRef = 0732F10C1D062BF700AB5438 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		D2A3F4DD206909A8006BB305 /* MBProgressHUD.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MBProgressHUD.framework;
-			remoteRef = D2A3F4DC206909A8006BB305 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		07FABB8225C9AEC000E1CC2C /* Resources */ = {
