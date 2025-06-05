@@ -119,17 +119,6 @@
 		0732F1261D06323A00AB5438 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		0732F1281D06324200AB5438 /* libcurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurses.tbd; path = usr/lib/libcurses.tbd; sourceTree = SDKROOT; };
 		074F30781D062A2800A73445 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07E4C5201C935E28000C571A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		07F670651D05EEE200C0A53C /* MCPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPSession.h; sourceTree = "<group>"; };
-		07F670661D05EEE200C0A53C /* MCPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPSession.m; sourceTree = "<group>"; };
-		07F670671D05EEE200C0A53C /* MoshSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoshSession.h; sourceTree = "<group>"; };
-		07F670681D05EEE200C0A53C /* MoshSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoshSession.m; sourceTree = "<group>"; };
-		07F6706B1D05EEE200C0A53C /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
-		07F6706C1D05EEE200C0A53C /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
-		07F6706D1D05EEE200C0A53C /* SSHCopyIDSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHCopyIDSession.h; sourceTree = "<group>"; };
-		07F6706E1D05EEE200C0A53C /* SSHCopyIDSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHCopyIDSession.m; sourceTree = "<group>"; };
-		07F6706F1D05EEE200C0A53C /* SSHSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHSession.h; sourceTree = "<group>"; };
-		07F670701D05EEE200C0A53C /* SSHSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHSession.m; sourceTree = "<group>"; };
 		07FABB8425C9AEC000E1CC2C /* SSH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FABB8625C9AEC000E1CC2C /* SSH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSH.h; sourceTree = "<group>"; };
 		07FABB8725C9AEC000E1CC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,14 +159,9 @@
 		07FABC2125C9AFC400E1CC2C /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		85A34303200A837A009324F1 /* webfontloader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = webfontloader.js; sourceTree = "<group>"; };
 		85A34308200A8FAF009324F1 /* term.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = term.css; sourceTree = "<group>"; };
+		A9673E5C2DF1D52800991BBF /* template_setup.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = template_setup.xcconfig; sourceTree = "<group>"; };
 		B700AED71DD0F2C200100EBF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		BD23B6DF2CB058550041C38D /* ios_patches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ios_patches.h; sourceTree = "<group>"; };
-		BD23B6E02CB0585B0041C38D /* ios_patches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ios_patches.m; sourceTree = "<group>"; };
-		BD67FC78272B30F300C1EE75 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
-		BD67FC9A2732D4D300C1EE75 /* BackgroundTaskMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskMonitor.swift; sourceTree = "<group>"; };
 		BD7810A42640C36100114700 /* NWConnection+WriterTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NWConnection+WriterTo.swift"; sourceTree = "<group>"; };
-		BD81521C27387D1F002BB169 /* Certificates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Certificates.swift; sourceTree = "<group>"; };
-		BD835DD027A0BD19002C37D7 /* ReplaySubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaySubject.swift; sourceTree = "<group>"; };
 		BD8BBFAF25F947710084705F /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		BD8BBFF426001B020084705F /* AgentConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentConstraints.swift; sourceTree = "<group>"; };
 		BD8D891D25DC428300E55D9E /* Agent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
@@ -188,14 +172,9 @@
 		BD8D896F25DC534F00E55D9E /* user_key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = user_key; sourceTree = "<group>"; };
 		BD8D897025DC534F00E55D9E /* id_ecdsa.pub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = id_ecdsa.pub; sourceTree = "<group>"; };
 		BD8D897125DC534F00E55D9E /* user_key-cert.pub */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "user_key-cert.pub"; sourceTree = "<group>"; };
-		BD8DB645279B512900497C88 /* CodeFileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeFileSystem.swift; sourceTree = "<group>"; };
-		BD8DB646279B512900497C88 /* CodeFileSystemService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeFileSystemService.swift; sourceTree = "<group>"; };
-		BD9514262B4F606500A7BEBE /* SSHClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHClient.swift; sourceTree = "<group>"; };
 		BD9BF7E3262A6B0300B02074 /* SOCKS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOCKS.swift; sourceTree = "<group>"; };
 		BD9BF7E8262A6B0F00B02074 /* SOCKSTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOCKSTests.swift; sourceTree = "<group>"; };
 		BDB72CB127A9C08500DCC446 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		BDBFA3072728914F00C77798 /* BlinkCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlinkCode.h; sourceTree = "<group>"; };
-		BDBFA31F2728925C00C77798 /* WebSocketServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketServer.swift; sourceTree = "<group>"; };
 		BDD6D14627594E8700E76F1F /* SSHClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSHClientConfig.swift; sourceTree = "<group>"; };
 		BDE84C3B2BAE335100457391 /* vim */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vim; sourceTree = "<group>"; };
 		BDEEE36B2B8951D3003003FD /* get_frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = get_frameworks.sh; sourceTree = "<group>"; };
@@ -228,8 +207,6 @@
 		D2334EC625C1C04700385378 /* network_ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = network_ios.xcframework; path = xcfs/.build/artifacts/xcfs/network_ios/network_ios.xcframework; sourceTree = SOURCE_ROOT; };
 		D2334EC925C1C04700385378 /* shell.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = shell.xcframework; path = xcfs/.build/artifacts/xcfs/shell/shell.xcframework; sourceTree = SOURCE_ROOT; };
 		D2334F0A25C1C3A000385378 /* OpenSSH.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OpenSSH.xcframework; path = xcfs/.build/artifacts/xcfs/OpenSSH/OpenSSH.xcframework; sourceTree = SOURCE_ROOT; };
-		D23FFC69261C2D46003E9227 /* template_setup.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = template_setup.xcconfig; sourceTree = "<group>"; };
-		D248E67D22DE14100057FE67 /* SessionParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionParams.swift; sourceTree = "<group>"; };
 		D248EC542689EAD7009FD817 /* SSHConfig */ = {isa = PBXFileReference; lastKnownFileType = text; name = SSHConfig; path = xcfs/.build/checkouts/SSHConfig; sourceTree = SOURCE_ROOT; };
 		D2496F3B20038B3300E75FE9 /* hterm_all.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hterm_all.min.js; sourceTree = "<group>"; };
 		D2496F402003941B00E75FE9 /* term.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = term.js; sourceTree = "<group>"; };
@@ -359,24 +336,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07F670621D05EEE200C0A53C /* Sessions */ = {
-			isa = PBXGroup;
-			children = (
-				07F6706B1D05EEE200C0A53C /* Session.h */,
-				07F6706C1D05EEE200C0A53C /* Session.m */,
-				07F670651D05EEE200C0A53C /* MCPSession.h */,
-				07F670661D05EEE200C0A53C /* MCPSession.m */,
-				07F670671D05EEE200C0A53C /* MoshSession.h */,
-				07F670681D05EEE200C0A53C /* MoshSession.m */,
-				07F6706D1D05EEE200C0A53C /* SSHCopyIDSession.h */,
-				07F6706E1D05EEE200C0A53C /* SSHCopyIDSession.m */,
-				07F6706F1D05EEE200C0A53C /* SSHSession.h */,
-				07F670701D05EEE200C0A53C /* SSHSession.m */,
-				D248E67D22DE14100057FE67 /* SessionParams.swift */,
-			);
-			path = Sessions;
-			sourceTree = SOURCE_ROOT;
-		};
 		07FABB8525C9AEC000E1CC2C /* SSH */ = {
 			isa = PBXGroup;
 			children = (
@@ -451,14 +410,6 @@
 			path = BlinkFilesTests;
 			sourceTree = "<group>";
 		};
-		BD835DCF27A0BD19002C37D7 /* Publisher */ = {
-			isa = PBXGroup;
-			children = (
-				BD835DD027A0BD19002C37D7 /* ReplaySubject.swift */,
-			);
-			path = Publisher;
-			sourceTree = "<group>";
-		};
 		BD8D898025DC535600E55D9E /* keys */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,31 +421,6 @@
 				BD8D897125DC534F00E55D9E /* user_key-cert.pub */,
 			);
 			name = keys;
-			sourceTree = "<group>";
-		};
-		BD9514252B4F606500A7BEBE /* SSH */ = {
-			isa = PBXGroup;
-			children = (
-				BD9514262B4F606500A7BEBE /* SSHClient.swift */,
-			);
-			name = SSH;
-			path = BlinkFileProvider/SSH;
-			sourceTree = SOURCE_ROOT;
-		};
-		BDBFA3062728914F00C77798 /* BlinkCode */ = {
-			isa = PBXGroup;
-			children = (
-				BD9514252B4F606500A7BEBE /* SSH */,
-				BD835DCF27A0BD19002C37D7 /* Publisher */,
-				BD81521C27387D1F002BB169 /* Certificates.swift */,
-				BD8DB645279B512900497C88 /* CodeFileSystem.swift */,
-				BD8DB646279B512900497C88 /* CodeFileSystemService.swift */,
-				BDBFA31F2728925C00C77798 /* WebSocketServer.swift */,
-				BDBFA3072728914F00C77798 /* BlinkCode.h */,
-				BD67FC78272B30F300C1EE75 /* Messages.swift */,
-				BD67FC9A2732D4D300C1EE75 /* BackgroundTaskMonitor.swift */,
-			);
-			path = BlinkCode;
 			sourceTree = "<group>";
 		};
 		D218068825CC277900B98902 /* AppKitBridge */ = {
@@ -544,21 +470,16 @@
 			isa = PBXGroup;
 			children = (
 				BDEEE36B2B8951D3003003FD /* get_frameworks.sh */,
-				D23FFC69261C2D46003E9227 /* template_setup.xcconfig */,
+				A9673E5C2DF1D52800991BBF /* template_setup.xcconfig */,
 				D27D01232615F1BD00128C23 /* developer_setup.xcconfig */,
 				07FABB8525C9AEC000E1CC2C /* SSH */,
 				07FABB9225C9AEC100E1CC2C /* SSHTests */,
 				07FABBB025C9AECF00E1CC2C /* BlinkFiles */,
 				07FABBBD25C9AECF00E1CC2C /* BlinkFilesTests */,
 				D218068825CC277900B98902 /* AppKitBridge */,
-				BDBFA3062728914F00C77798 /* BlinkCode */,
 				0732F04F1D062BB300AB5438 /* Frameworks */,
 				0732F0481D062B9A00AB5438 /* Resources */,
 				074F30781D062A2800A73445 /* main.m */,
-				BD23B6E02CB0585B0041C38D /* ios_patches.m */,
-				BD23B6DF2CB058550041C38D /* ios_patches.h */,
-				07E4C5201C935E28000C571A /* Media.xcassets */,
-				07F670621D05EEE200C0A53C /* Sessions */,
 				EA0BA18C1C0CC57B00719C1A /* Products */,
 			);
 			indentWidth = 2;
