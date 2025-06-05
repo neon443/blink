@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1430"
+   LastUpgradeVersion = "1640"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D22277CD2A26115300D4C708"
-               BuildableName = "BlinkSnippets.framework"
-               BlueprintName = "BlinkSnippets"
+               BlueprintIdentifier = "07FABBAE25C9AECF00E1CC2C"
+               BuildableName = "BlinkFiles.framework"
+               BlueprintName = "BlinkFiles"
                ReferencedContainer = "container:Blink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -49,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D22277CD2A26115300D4C708"
-            BuildableName = "BlinkSnippets.framework"
-            BlueprintName = "BlinkSnippets"
+            BlueprintIdentifier = "07FABBAE25C9AECF00E1CC2C"
+            BuildableName = "BlinkFiles.framework"
+            BlueprintName = "BlinkFiles"
             ReferencedContainer = "container:Blink.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
